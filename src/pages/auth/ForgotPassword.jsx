@@ -6,7 +6,7 @@ import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import ErrorMessage from '../../components/common/ErrorMessage';
 import { authService } from '../../services/authService';
 import { isEmail, required } from '../../utils/validation';
-import './ForgotPassword.css';
+import '../../css/forgotPassword.css';
 
 const ForgotPassword = () => {
   const navigate = useNavigate();
