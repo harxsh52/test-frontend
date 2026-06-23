@@ -65,14 +65,6 @@ const SidebarContent = ({ onNavigate }) => {
           <Typography variant="h6" sx={{ fontWeight: 800 }}>
             InternIQ
           </Typography>
-          <Typography variant="caption" sx={{ color: '#9ca3af' }}>
-            {user?.name || 'Management Platform'}
-          </Typography>
-          {user?.role ? (
-            <Typography variant="caption" sx={{ color: '#9ca3af', display: 'block' }}>
-              {roleLabels[user.role] || user.role}
-            </Typography>
-          ) : null}
         </Box>
       </Toolbar>
       <Divider sx={{ borderColor: 'rgba(255,255,255,0.08)' }} />
